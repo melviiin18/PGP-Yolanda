@@ -1,0 +1,1 @@
+Running CORS Anywhere on 0.0.0.0:\\.\pipe\9ae5703b-f9c1-4c13-90ad-51b86e3750fd

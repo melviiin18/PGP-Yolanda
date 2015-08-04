@@ -1,0 +1,105 @@
+[
+   
+	{
+        name: 'Aklan',
+        thumb: 'aklan.png',
+        url: 'noah_aklan_safe_areas',
+        tooltip: '',
+		bbox:{left: 13563400.917011255, bottom: 1208287.8040667644, right: 13655773.713926075, top:1345851.898597508}
+    },
+	{
+        name: 'Antique',
+        thumb: 'antique.png',
+        url: 'noah_antique_safe_areas',
+        tooltip: '',
+		bbox:{left: 13563685.39448646, bottom: 1209608.5798516166, right: 13617210.78320946, top: 1326224.2203960342},
+    },
+	{
+        name: 'Biliran',
+        thumb: 'biliran.png',
+        url: 'noah_biliran_safe_areas',
+        tooltip: '',
+		bbox:{left: 13831874.006890623, bottom: 1284389.1390759381, right: 13872764.24518473, top: 1324953.40153244},
+    },
+	{
+        name: 'Capiz',
+        thumb: 'capiz.png',
+        url: 'noah_capiz_safe_areas',
+        tooltip: '',
+		bbox:{left: 13603240.242965836, bottom: 1247284.830286286, right: 13703237.299360732, top: 1301751.1392830808},
+    },
+	{
+        name: 'Cebu',
+        thumb: 'cebu.png',
+        url: 'noah_cebu_safe_areas',
+        tooltip: '',
+		bbox:{left: 13769019.011949195, bottom: 1178784.408321696, right: 13867177.205356926, top: 1272145.0671163383},
+    },
+	{
+        name: 'Dinagat Island',
+        thumb: 'dinagat.png',
+        url: 'noah_dinagat_island_safe_areas',
+        tooltip: '',
+		bbox:{left: 13962737.376457866, bottom: 1064194.068325773, right: 13990846.019248279, top: 1172417.4545488525},
+    },
+	{
+        name: 'Eastern Samar',
+        thumb: 'eastern_samar.png',
+        url: 'noah_eastern_samar_safe_areas',
+        tooltip: '',
+		bbox:{left: 13937141.253030738, bottom: 1196504.8549232064, right: 14023905.611361282, top: 1314044.683850775},
+    },
+	{
+        name: 'Iloilo',
+        thumb: 'iloilo.png',
+        url: 'noah_iloilo_safe_areas',
+        tooltip: '',
+		bbox:{left: 13607277.328130262, bottom: 1206148.8078589565, right: 13710688.559275148, top: 1299892.3273988115}
+    },
+	{
+        name: 'Leyte',
+        thumb: 'leyte.png',
+        url: 'noah_leyte_safe_areas',
+        tooltip: '',
+		bbox:{left: 13834933.641208556, bottom: 1177938.6552196767, right: 13932276.820242336, top: 1295985.8499685032}
+    },
+	{
+        name: 'Masbate',
+        thumb: 'masbate.png',
+        url: 'noah_masbate_safe_areas',
+        tooltip: '',
+		bbox:{left: 13705422.696691079, bottom: 1326903.467518562, right: 13729568.9130824, top: 1360860.3926511463}
+    },
+	{
+        name: 'Negros',
+        thumb: 'negros.png',
+        url: 'noah_negros_safe_areas',
+        tooltip: '',
+		bbox:{left: 13685829.52921002, bottom: 1175548.5486477383, right: 13755602.283486051, top: 1232463.9474383472}
+    },
+	{
+        name: 'Palawan',
+        thumb: 'palawan.png',
+        url: 'noah_palawan_safe_areas',
+        tooltip: '',
+		bbox:{left: 13340697.723542565, bottom: 1306770.2679361608, right: 13396699.306704212, top: 1383792.5499702708}
+    },
+	{
+        name: 'Samar',
+        thumb: 'samar.png',
+        url: 'noah_samar_safe_areas',
+        tooltip: '',
+		bbox:{left: 13894486.855787322, bottom: 1241785.3535873152, right: 13949258.85409121, top: 1302275.9967083333}
+    },
+	{
+        name: 'Southern Leyte',
+        thumb: 'southern_leyte.png',
+        url: 'noah_southern_leyte_safe_areas',
+        tooltip: '',
+		bbox:{left: 13920769.142069308, bottom: 1168374.0512997517, right: 13936331.383549765, top: 1189332.0011911087}
+    },
+]
+
+
+
+
