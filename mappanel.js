@@ -86,8 +86,8 @@ Ext.define('mappanel',{
 				handler:function(){					
 					var me=this.up('panel');			
 					console.log(me);
-					if(me.map.getLayersByName('Gcode').length > 0) {				
-						me.map.getLayersByName('Gcode')[0].destroy();					
+					if(map.getLayersByName('Gcode').length > 0) {				
+						map.getLayersByName('Gcode')[0].destroy();					
 					};		
 					
 					if (navigator.geolocation) {   
@@ -107,8 +107,8 @@ Ext.define('mappanel',{
 										
 									});		
 								Location.addFeatures([new OpenLayers.Feature.Vector(currLoc)]);						
-								me.map.addLayers([Location]);												
-								me.map.zoomToExtent(Location.getDataExtent());		
+								map.addLayers([Location]);												
+								map.zoomToExtent(Location.getDataExtent());		
 								}
 						)		
 						
@@ -201,8 +201,8 @@ Ext.define('mappanel',{
 						handler: function(){
 							map.setBaseLayer(map.layers[1]);
 							this.up().up().up().items.items[5].setText('Basemap : ' + this.text);				
-							OthoExtent = new OpenLayers.Bounds(120.613472,14.295979, 121.550385,14.827789).transform('EPSG:4326','EPSG:900913')
-							map.zoomToExtent(OthoExtent);	
+							//OthoExtent = new OpenLayers.Bounds(120.613472,14.295979, 121.550385,14.827789).transform('EPSG:4326','EPSG:900913')
+							//map.zoomToExtent(OthoExtent);	
 							
 						}
 					},
@@ -251,9 +251,9 @@ Ext.define('mappanel',{
 						handler: function(){
 							map.setBaseLayer(map.layers[6]);
 							this.up().up().up().items.items[5].setText('Basemap : ' + this.text);
-							OthoExtent = new OpenLayers.Bounds(124.64,10.69, 126,11).transform('EPSG:4326','EPSG:900913')
-							map.zoomToExtent(OthoExtent);
-							map.zoomTo(10);
+							//OthoExtent = new OpenLayers.Bounds(124.64,10.69, 126,11).transform('EPSG:4326','EPSG:900913')
+							//map.zoomToExtent(OthoExtent);
+							//map.zoomTo(10);
 						}
 					},
 					'-',
@@ -489,6 +489,7 @@ Ext.define('mappanel',{
 				{ xtype: 'toolbar',
 				  dock: 'top',
 				  items: this.buildItems(),
+				  enableOverflow: true
 				}
 			]			
 		});		
