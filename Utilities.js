@@ -167,7 +167,7 @@ Ext.define('Utilities', {
 			var retVal;
 			Ext.Ajax.request({
 				async: false,
-				url: 'http://geoportal.gov.ph/webapi/api/layers/getlayerconfig/' + layer_name,
+				url: '/webapi/api/layers/getlayerconfig/' + layer_name,
 				success: function(response){
 					var obj = Ext.decode(response.responseText);
 					if ( obj.config === "")

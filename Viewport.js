@@ -11,7 +11,8 @@ paths: {
 Ext.application({
     name: 'OL3EXT4',	
 	requires:[
-		'mappanel',		
+		'mappanel',
+		'MeasureTool',		
 		'Utilities',
 		'LoadedLayerContextMenu',
 		'USGSdata',

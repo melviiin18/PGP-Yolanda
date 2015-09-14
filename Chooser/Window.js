@@ -124,23 +124,19 @@ Ext.define('Chooser.Window', {
 			var Layer2 = new OpenLayers.Layer.WMS(
 				layername,
 				'http://geoserver.namria.gov.ph/geoserver/geoportal/wms', 
+				
 				{
 					layers:layer,				
-					transparent:true						
+					transparent:true,							
 				},
 				{
 					//isBaseLayer:false,
-					opacity:.7
+					opacity:.7,
+					
 			});
 			
 				
-			layer=layer.replace('safe_areas','multihazard')
-			    
-			if (layer.indexOf('dinagat')>0){
-				console.log('dinagat!')
-				layer = 'noah_dinagat_multihazard'
-			}
-			
+			layer=layer.replace('safe_areas','multihazard')						
 				
 			var Layer1 = new OpenLayers.Layer.WMS(
 				layername,
