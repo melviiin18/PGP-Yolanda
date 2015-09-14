@@ -107,7 +107,7 @@ Ext.define('mappanel',{
 				width: 25, 
 				height: 25,
 				toggleGroup: 'navigation',
-				tooltip: 'Pan/Identify',
+				tooltip: 'Pan',
 				pressed: true,
 				handler: function() {					
 					me.body.applyStyles('cursor:default');
@@ -116,10 +116,10 @@ Ext.define('mappanel',{
 					toggle: function(e){
 						if(e.pressed) {
 							//info.activate();							
-							this.up('panel').pgsGetFeatureInfo.activate();
+							//this.up('panel').pgsGetFeatureInfo.activate();
 						} else {
 							//info.deactivate();							
-							this.up('panel').pgsGetFeatureInfo.deactivate();							
+							//this.up('panel').pgsGetFeatureInfo.deactivate();							
 						} 
 					}
 				}
@@ -660,8 +660,8 @@ Ext.define('mappanel',{
 					}
 				}
 		});
-		map.addControl(this.pgsGetFeatureInfo);
-		this.pgsGetFeatureInfo.activate();
+		//map.addControl(this.pgsGetFeatureInfo);
+		//this.pgsGetFeatureInfo.activate();
 		
 		//
 		
